@@ -23,11 +23,19 @@ main{
     min-height: 100vh;
 }
 
+.pokedex{
+    display: flex;
+    gap: 30px;
+    padding: 30px 0;
+}
+
 /* Style cart-pokedex */
 
 .card-pokedex {
     display: none;
     max-width: 360px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .card-pokedex.open {
@@ -98,3 +106,41 @@ main{
 .tipo-agua {
     background-color: #015c98;
 }
+
+.list-pokedex{
+    max-width: 200px;
+}
+
+.list-pokedex .pokedex img{
+    width: 25%;
+}
+
+.list-pokedex .pokedex {
+    background-color: #6b727a;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+
+    transition: 0.15 ease-in-out;
+}
+
+.list-pokedex .pokedex:hover {
+    transform: scale(1.1);
+}
+
+.list-pokedex .pokedex span{
+    padding-right: 20px;
+}
+
+.list-pokedex .pokedex.activate{
+    background-color: #fa6668;
+} 
+

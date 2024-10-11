@@ -7,19 +7,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Style CSS and Reset CSS -->
+    <link rel="stylesheet" href="./src/css/style.css"> 
+    <link rel="stylesheet" href="./src/css/reset.css">
 
     <title>Pokedex Test</title>
 </head>
 <body>
-    <header>
-        <h1>Pokedex</h1>
-        <img src="./src/assets/image/Logo.png" alt="Logo">
-    </header>
     <main>
         <div class="pokedex">
-            <div class="card-pokedex">
+            <div class="cards-pokedex">
 
-                <div class="card tipo-eletrico" id="card-picachu">
+                <div class="card-pokedex tipo-eletrico open" id="card-picachu">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Picachu</h2>
@@ -28,7 +27,7 @@
                         <!-- details -->
                          <span class="type">eletrico</span>
                          <div class="card-img">
-                            <img src="./src/assets/image/Picachu.png" alt="Picachu">
+                            <img src="./src/assets/image/Picachu.webp" alt="Picachu">
                          </div>
                     </div>
                     <!-- card-top -->
@@ -43,7 +42,7 @@
                 </div>
                 <!-- card -->
 
-                <div class="card tipo-planta" id="card-bulbasaur">
+                <div class="card-pokedex tipo-planta" id="card-bulbasaur">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Bulbasaur</h2>
@@ -52,7 +51,7 @@
                         <!-- details -->
                          <span class="type">planta</span>
                          <div class="card-img">
-                            <img src="./src/assets/image/Bulbasaur.png" alt="Bulbasaur">
+                            <img src="./src/assets/image/Bulbasaur.webp" alt="Bulbasaur">
                          </div>
                     </div>
                     <!-- card-top -->
@@ -67,7 +66,7 @@
                 </div>
                 <!-- card -->
 
-                <div class="card tipo-fogo" id="card-charmander">
+                <div class="card-pokedex tipo-fogo" id="card-charmander">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Charmander</h2>
@@ -76,7 +75,7 @@
                         <!-- details -->
                          <span class="type">fogo</span>
                          <div class="card-img">
-                            <img src="./src/assets/image/Charmander.png" alt="Charmander">
+                            <img src="./src/assets/image/Charmander.webp" alt="Charmander">
                          </div>
                     </div>
                     <!-- card-top -->
@@ -91,7 +90,7 @@
                 </div>
                 <!-- card -->
 
-                <div class="card tipo-agua" id="card-squirtle">
+                <div class="card-pokedex tipo-agua" id="card-squirtle">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Squirtle</h2>
@@ -100,7 +99,7 @@
                         <!-- details -->
                          <span class="type">Agua</span>
                          <div class="card-img">
-                            <img src="./src/assets/image/Squirtle.png" alt="Squirtle">
+                            <img src="./src/assets/image/Squirtle_1.webp" alt="Squirtle">
                          </div>
                     </div>
                     <!-- card-top -->
@@ -116,24 +115,24 @@
                 <!-- card -->
 
             </div>
-            <!-- card-pokedex -->
+            <!-- cards-pokedex -->
 
             <nav class="list-pokedex">
                 <ul>
                     <li class="pokedex activate" id="Picachu">
-                        <img src="./src/assets/image/Picachu.png" alt="Picachu">
+                        <img src="./src/assets/image/Picachu.webp" alt="Picachu">
                         <span>Picachu</span>
                     </li>
                     <li class="pokedex" id="Bulbasaur">
-                        <img src="./src/assets/image/Bulbasaur.png" alt="Bulbasaur">
+                        <img src="./src/assets/image/Bulbasaur.webp" alt="Bulbasaur">
                         <span>Bulbasaur</span>
                     </li>
                     <li class="pokedex" id="Charmander">
-                        <img src="./src/assets/image/Charmander.png" alt="Charmander">
+                        <img src="./src/assets/image/Charmander.webp" alt="Charmander">
                         <span>Charmander</span>
                     </li>
                     <li class="pokedex" id="Squirtle">
-                        <img src="./src/assets/image/Squirtle.png" alt="Squirtle">
+                        <img src="./src/assets/image/Squirtle_1.webp" alt="Squirtle">
                         <span>Squirtle</span>
                     </li>
                 </ul>

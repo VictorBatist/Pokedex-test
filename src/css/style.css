@@ -1,0 +1,18 @@
+/* Style Geral */
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url("../assets/image/Background.png");
+    background-size: cover;
+}
+
+/* Style cart-pokedex */
+
+.card-pokedex {
+    display: none;
+    background-color: green;
+    max-width: 360px;
+}
+
+.card-pokedex.open {
+    display: block;
+}

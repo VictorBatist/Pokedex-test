@@ -111,11 +111,11 @@ main{
     max-width: 200px;
 }
 
-.list-pokedex .pokedex img{
+.list-pokedex .pokemon img{
     width: 25%;
 }
 
-.list-pokedex .pokedex {
+.list-pokedex .pokemon {
     background-color: #6b727a;
     color: #ffffff;
 
@@ -132,15 +132,15 @@ main{
     transition: 0.15 ease-in-out;
 }
 
-.list-pokedex .pokedex:hover {
+.list-pokedex .pokemon:hover {
     transform: scale(1.1);
 }
 
-.list-pokedex .pokedex span{
+.list-pokedex .pokemon span{
     padding-right: 20px;
 }
 
-.list-pokedex .pokedex.activate{
+.list-pokedex .pokemon.activate{
     background-color: #fa6668;
 } 
 

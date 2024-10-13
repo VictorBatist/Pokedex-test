@@ -1,0 +1,40 @@
+@media (max-width: 750px){
+    .pokedex{
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .cards-pokedex{
+        max-width: 300px;
+    }
+
+    .cards-pokedex .card-information{
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+
+    .cards-pokedex .card-information h3{
+        font-size: 16px;
+    }
+
+    .list-pokedex{
+        max-width: 360px;
+    }
+
+    .list-pokedex .pokemon{
+        width: 45%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-bottom: 0;
+        border-radius: 8px;
+    }
+
+    .list-pokedex ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+}
